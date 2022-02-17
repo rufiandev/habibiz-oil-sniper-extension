@@ -45,7 +45,7 @@ function fetchHabibizUnclaimedOil(e) {
             const div = document.createElement("div");
             div.style = "position: absolute; right: 10px; top: 5px"
             div.id = "unclaimedOil";
-            div.innerHTML = `<div style="background-color:lightgray;border-radius:5px;"><strong style="font-size:120%;margin-left:10px;vertical-align:super;${color}">${unclaimedOil}</strong> <img src='${iconUrl}' width='20px' height='20px' style='vertical-align: text-bottom;margin: 5px 7px 5px 0px;'/></div>`;
+            div.innerHTML = `<div style="background-color:lightgray;border-radius:5px;"><strong style="font-size:17px;margin-left:10px;${color}">${unclaimedOil}</strong> <img src='${iconUrl}' width='20px' height='20px' style='vertical-align:text-top;margin-right: 7px;'/></div>`;
 
             insertAfter(div, nft)
         });
