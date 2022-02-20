@@ -3,7 +3,6 @@
   "name": "Oil sniper",
   "description": "Habibiz unclaimed oil sniper",
   "version": "1.0.0",
-  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://*.opensea.io/collection/thehabibiz"],
